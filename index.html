@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Form Validator</title>
+  <link href="main.css" rel='stylesheet' />
+  <link href="https://fonts.googleapis.com/css?family=Spartan&display=swap" rel="stylesheet">
+</head>
+<body>
+  
+
+  <div class='modal-content hide'>
+    <div class='modal-container'>
+      <div class='modal'>
+        <div class='modal-header'>
+            <p>Sign Up</p>
+            <div class='close'>
+              <i class='fa fa-times fa-2x'></i>
+            </div>
+            
+        </div>
+         <div class='modal-body'>
+            <h3>Register With Us</h3>
+            <form class='form'>
+              <div class='form-control'>
+               <label for='name'>Name</label>
+               <input type='text' placeholder="Enter name" class='input'  id='username'/>
+               <small class='small'></small><br>
+              </div>
+              <div class='form-control'>
+                <label for='email'>Email</label>
+                <input type='email' placeholder="Enter email" class='input' id='email' /> 
+                <small class='small'></small><br>
+              </div>
+             <div class='form-control'>
+               <label for='password'>Password</label>
+              <input type='password' placeholder="Enter password" class='input'id='password' />
+              <small class='small'></small><br>
+             </div>
+              
+             <div class='form-control'>
+              <label for='password'>Confirm Password</label>
+              <input type='password' placeholder="Confirm password" id='confirmPassword' class='input' />
+              <small class='small'></small><br>
+             </div>
+            
+              <button type='submit' class='btn'>Submit</button>
+            </form>
+         </div>
+         </div>
+      </div>
+    </div>
+
+
+
+
+  <script src='main.js'></script>
+</body>
+</html>
